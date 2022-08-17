@@ -26,7 +26,7 @@ jobs:
     - name: Set up WDK version 2004 for bcmgenet backwards compatibility
       run: |
         $wdkSetupPath = "$Env:TEMP\wdksetup.exe"
-        (New-Object Net.WebClient).DownloadFile('https://go.microsoft.com/fwlink/?linkid=2128854', $wdkSetupPath)
+        (New-Object Net.WebClient).DownloadFile('https://go.microsoft.com/fwlink/?linkid=2196230', $wdkSetupPath)
         Start-Process -FilePath $wdkSetupPath -ArgumentList "/quiet" -NoNewWindow -Wait
 
     - name: Add MSBuild to PATH
