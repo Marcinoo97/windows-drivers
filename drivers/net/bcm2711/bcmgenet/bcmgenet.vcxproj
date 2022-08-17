@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="bcmgenet_netadaptercx20.vcxproj">
       <Project>{14481f54-b4e3-451c-bbe1-dea167da623c}</Project>
+      <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     </ProjectReference>
     <ProjectReference Include="bcmgenet_netadaptercx21.vcxproj">
       <Project>{a4ef48d0-496b-46c4-b9ff-3d5f4858f2fc}</Project>
